@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__barra {
+    width: 100%;
+    padding: 24px;
+}
+
+.barra__busqueda {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid #c0c0c0;
+    box-shadow: 0 2px 8px 0 #c0c0c0;
+}
+
+.barra__busqueda input {
+    width: 95%;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 16px;
+    background-color: #fff;
+}
+
+.barra__busqueda input:focus {
+    outline: none;
+}
+
+.barra__busqueda i {
+    margin: 0 4px;
+    color: #aaaaaa;
+}
+
+.barra__busqueda i:hover {
+    color: #1e5aff;
+    cursor: pointer;
+}

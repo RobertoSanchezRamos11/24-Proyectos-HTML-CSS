@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #1655AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 900px;
+    height: 400px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: auto;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.content__top {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.card .content__top .contenido h4 {
+    margin-bottom: 8px;
+}
+
+.card .icono img {
+    width: 50px;
+}
+
+.botones {
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+}
+
+.botones button {
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn__descargar {
+    background-color: #008FE2;
+    outline: 1px solid #008FE2;
+    color: #fff;
+}
+
+.btn__volver {
+    background-color: #fff;
+    outline: 1px solid #bebebe;
+}
+
+@media (max-width: 550px) {
+
+    .card {
+        width: 350px;
+    }
+
+    .content__top {
+        gap: 8px;
+    }
+
+    .botones {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
